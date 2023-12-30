@@ -1,0 +1,14 @@
+{
+  "name": "day-28-first_express_server",
+  "version": "1.0.0",
+  "description": "First_express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Raushan choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
