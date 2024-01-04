@@ -8,14 +8,15 @@ function Category(c) {
     this.categoryName = c;
   
 }
-Category.prototype.getcategoryName= function (){
-    console.log("called");
-    console.log(this.categoryName);
-}
 
 
 Product.prototype = Object.create(Category.prototype);
 
 let p = new Product("iPhone", 100000, "Electronics");
+Category.prototype.getcategoryName= function (){
+    console.log("called");
+    console.log(this.categoryName);
+}
+
 console.log(p);
 p.getcategoryName();
